@@ -22,7 +22,7 @@ import (
 	"github.com/docker/docker/integration-cli/environment"
 	"github.com/docker/docker/integration-cli/fixtures/plugin"
 	"github.com/docker/docker/integration-cli/registry"
-	ienv "github.com/docker/docker/internal/test/environment"
+	ienv "github.com/moby/moby/internal/test/environment"
 	"github.com/docker/docker/pkg/reexec"
 	"github.com/go-check/check"
 	"golang.org/x/net/context"
